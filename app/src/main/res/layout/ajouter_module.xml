@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AjouterModule">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtMatriculeMod"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="MATRICULE"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtNomMod"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:ems="10"
+                android:hint="NOM"
+                android:inputType="textPersonName" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtVolHoraireMod"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:ems="10"
+                    android:hint="VOLUME HORAIRE"
+                    android:inputType="textPersonName" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/txtDateDebutMod"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:ems="10"
+                        android:hint="DATE DEBUT"
+                        android:inputType="textPersonName" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/txtDateFinMod"
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:ems="10"
+                            android:hint="DATE FIN"
+                            android:inputType="textPersonName" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/txtSalleMod"
+                                android:layout_width="match_parent"
+                                android:layout_height="56dp"
+                                android:ems="10"
+                                android:hint="SALLE ATTRIBUEE"
+                                android:inputType="textPersonName" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <EditText
+                                    android:id="@+id/txtProfesseurMod"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="55dp"
+                                    android:ems="10"
+                                    android:hint="PROFESSEUR"
+                                    android:inputType="textPersonName" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/btnAjouterMod"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="63dp"
+                                        android:text="valider"
+                                        android:textColor="#2196F3"
+                                        android:textStyle="italic" />
+
+                                    <Button
+                                        android:id="@+id/btnRetourMod"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="retour"
+                                        android:textColor="#2196F3"
+                                        android:textStyle="italic" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

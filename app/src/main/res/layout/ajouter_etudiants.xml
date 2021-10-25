@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AjouterEtudiant">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtMatEtud"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="MATRICULE"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtNomEtud"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:ems="10"
+                android:hint="NOM ET PRENOM(S)"
+                android:inputType="textPersonName" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtNaissEtud"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:ems="10"
+                    android:hint="DATE DE NAISSANCE"
+                    android:inputType="textPersonName" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/txtAdresseEtud"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:ems="10"
+                        android:hint="ADRESSE"
+                        android:inputType="textPersonName" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/txtTelephoneEtud"
+                            android:layout_width="match_parent"
+                            android:layout_height="58dp"
+                            android:ems="10"
+                            android:hint="TELEPHONE"
+                            android:inputType="textPersonName" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/txtEmailEtud"
+                                android:layout_width="match_parent"
+                                android:layout_height="58dp"
+                                android:ems="10"
+                                android:hint="E-MAIL"
+                                android:inputType="textPersonName" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <EditText
+                                    android:id="@+id/txtClasseEtud"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="58dp"
+                                    android:ems="10"
+                                    android:hint="CLASSE"
+                                    android:inputType="textPersonName" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/btnAjouterEtud"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="63dp"
+                                        android:text="valider"
+                                        android:textColor="#2196F3"
+                                        android:textStyle="italic" />
+
+                                    <Button
+                                        android:id="@+id/btnRetourEtAj"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Retour"
+                                        android:textColor="#2196F3"
+                                        android:textStyle="italic" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

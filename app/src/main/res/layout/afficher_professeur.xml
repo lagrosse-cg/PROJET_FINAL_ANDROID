@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsProfesseur">
+
+    <EditText
+        android:id="@+id/txtMatriculePofDet"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="MATRICULE"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtNomProfDet"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="NOM ET PRENOM(S)"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtNaissProfDet"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="DATE ET LIEU DE NAISSANCE"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtAdresseProfDet"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="ADRESSE"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtTelephoneProfDet"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="TELEPHONE"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtEmailProfDet"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="E-MAIL"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtClasseProfDet"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="CLASSE ENSEIGNEMENT"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtModuleProfDet"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="MODULE ENSEIGNE"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnModifierProfDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Modifier"
+            android:textColor="#2196F3"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnSupprimerProfDet"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Supprimer"
+            android:textColor="#2196F3"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnRetourProfDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Retour"
+            android:textColor="#2196F3"
+            android:textStyle="italic" />
+    </LinearLayout>
+</LinearLayout>

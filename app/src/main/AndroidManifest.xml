@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.supinfo_college">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SUPINFO_COLLEGE">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuEtudiants" />
+        <activity android:name=".MenuModule" />
+        <activity android:name=".MenuProfesseur" />
+        <activity android:name=".AjouterEtudiant" />
+        <activity android:name=".ListeEtudiants" />
+        <activity android:name=".AjouterProfesseur" />
+        <activity android:name=".AjouterModule" />
+        <activity android:name=".ListeProfesseurs" />
+        <activity android:name=".ListeModules" />
+        <activity android:name=".DetailsEtudiant" />
+        <activity android:name=".DetailsModule" />
+        <activity android:name=".DetailsProfesseur" />
+    </application>
+
+</manifest>

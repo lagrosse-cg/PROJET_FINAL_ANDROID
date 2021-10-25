@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AjouterProfesseur">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtMatriculeProf"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="MATRICULE"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtNomProf"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:ems="10"
+                android:hint="NOM ET PRENOM(S)"
+                android:inputType="textPersonName" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtNaissanceProf"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:ems="10"
+                    android:hint="DATE DE NAISSANCE"
+                    android:inputType="textPersonName" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/txtAdresseProf"
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:ems="10"
+                        android:hint="ADRESSE"
+                        android:inputType="textPersonName" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/txtTelephoneProf"
+                            android:layout_width="match_parent"
+                            android:layout_height="58dp"
+                            android:ems="10"
+                            android:hint="TELEPHONE"
+                            android:inputType="textPersonName" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/txtEmailProf"
+                                android:layout_width="match_parent"
+                                android:layout_height="59dp"
+                                android:ems="10"
+                                android:hint="E-MAIL"
+                                android:inputType="textPersonName" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <EditText
+                                    android:id="@+id/txtClasseProf"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="59dp"
+                                    android:ems="10"
+                                    android:hint="CLASSE ENSEIGNEMENT"
+                                    android:inputType="textPersonName" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <EditText
+                                        android:id="@+id/txtModuleProf"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="58dp"
+                                        android:ems="10"
+                                        android:hint="MODULE ENSEIGNE"
+                                        android:inputType="textPersonName" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <Button
+                                            android:id="@+id/btnAjouterProf"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="62dp"
+                                            android:text="valider"
+                                            android:textColor="#2196F3"
+                                            android:textStyle="italic" />
+
+                                        <Button
+                                            android:id="@+id/btnRetourProfAj"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Retour"
+                                            android:textColor="#2196F3"
+                                            android:textStyle="italic" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

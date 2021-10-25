@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsModule">
+
+    <EditText
+        android:id="@+id/txtMatriculeModDet"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="MATRICULE"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtNomModDet"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="NOM"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtVolHoraireModDet"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="VOLUME HORAIRE"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtDateDebutModDet"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="DATE DEBUT"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtDateFinModDet"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="DATE FIN"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtSalleModDet"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="SALLE ATTRIBUEE"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtProfesseurModDet"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="PROFESSEUR ASSIGNE"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnModifierModDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Modifier"
+            android:textColor="#2196F3"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnSupprimerModDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Supprimer"
+            android:textColor="#2196F3"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnRetourModDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Retour"
+            android:textColor="#2196F3"
+            android:textStyle="italic" />
+    </LinearLayout>
+</LinearLayout>

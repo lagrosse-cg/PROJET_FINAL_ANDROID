@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsEtudiant">
+
+    <EditText
+        android:id="@+id/txtMatricule"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="MATRICULE"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/black" />
+
+    <EditText
+        android:id="@+id/txtNomEtudDet"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint=" NOM ET PRENOM(S)"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/black" />
+
+    <EditText
+        android:id="@+id/txtNaissanceEtudDet"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="DATE ET LIEU DE NAISSANCE"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/black" />
+
+    <EditText
+        android:id="@+id/txtAdresseEtudDet"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="ADRESSE"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/black" />
+
+    <EditText
+        android:id="@+id/txtTelephoneEtudDet"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="TELEPHONE"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/black" />
+
+    <EditText
+        android:id="@+id/txtEmailEtudDet"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="E-MAIL"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/black" />
+
+    <EditText
+        android:id="@+id/txtClasseEtudDet"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="CLASSE"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnModifierEtud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Modifier "
+            android:textColor="#2196F3"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnSupprimerEtud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Supprimer"
+            android:textColor="#2196F3"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnRetourEtudDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Retour"
+            android:textColor="#2196F3"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</LinearLayout>
